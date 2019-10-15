@@ -29,3 +29,5 @@ flatpak install flathub com.getpostman.Postman &&
 flatpak run com.getpostman.Postman &&
 
 sudo apt update && sudo apt dist-upgrade -y && sudo apt autoclean -y && sudo apt autoremove -y &&
+
+echo "Finalizado ..."
