@@ -28,6 +28,9 @@ flatpak run com.google.AndroidStudio &&
 flatpak install flathub com.getpostman.Postman &&
 flatpak run com.getpostman.Postman &&
 
+sudo apt-get install nodejs &&
+sudo apt-get install git &&
+
 sudo apt update && sudo apt dist-upgrade -y && sudo apt autoclean -y && sudo apt autoremove -y &&
 
 echo "Finalizado ..."
